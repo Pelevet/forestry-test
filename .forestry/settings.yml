@@ -13,6 +13,8 @@ sections:
   label: dist
   create: all
   match: "**/*"
+  templates:
+  - tiif
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
